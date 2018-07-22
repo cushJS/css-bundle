@@ -1,4 +1,4 @@
-# @cush/css-bundle v0.2.0
+# @cush/css-bundle v0.2.1
 
 CSS bundles for [cush][1]
 
