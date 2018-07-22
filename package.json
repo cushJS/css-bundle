@@ -9,7 +9,7 @@
     "build": "coffee-build src -o lib"
   },
   "files": [
-    "/lib/"
+    "lib"
   ],
   "peerDependencies": {
     "cush": "^0.2.0"
