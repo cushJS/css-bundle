@@ -54,7 +54,7 @@ class CSSBundle extends Bundle
           chain.unshift result
 
       catch err
-        if err.line? then do =>
+        if err.line? then do ->
           opts = readFile: (filename) -> files[filename].content
           ErrorTracer(chain, opts)(err)
           err.snippet = snipSyntaxError chain[0].content, err
