@@ -1,4 +1,5 @@
 {ErrorTracer, uhoh} = require 'cush/utils'
+snipSyntaxError = require 'cush/utils/snipSyntaxError'
 MagicString = require '@cush/magic-string'
 isObject = require 'is-object'
 sorcery = require '@cush/sorcery'
